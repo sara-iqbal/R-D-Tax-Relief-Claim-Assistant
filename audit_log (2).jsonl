@@ -1,0 +1,200 @@
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P01", "action": "classified_document", "detail": {"type": "technical_note", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P01", "action": "classified_document", "detail": {"type": "timesheet", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P01", "action": "classified_document", "detail": {"type": "marketing", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P01", "action": "classified_document", "detail": {"type": "technical_note", "confidence": 0.5, "needs_human_check": true}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P02", "action": "classified_document", "detail": {"type": "marketing", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P02", "action": "classified_document", "detail": {"type": "timesheet", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P02", "action": "classified_document", "detail": {"type": "technical_note", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P02", "action": "classified_document", "detail": {"type": "invoice", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P03", "action": "classified_document", "detail": {"type": "timesheet", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P03", "action": "classified_document", "detail": {"type": "technical_note", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P03", "action": "classified_document", "detail": {"type": "marketing", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P03", "action": "classified_document", "detail": {"type": "invoice", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P03", "action": "classified_document", "detail": {"type": "technical_note", "confidence": 0.5, "needs_human_check": true}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P04", "action": "classified_document", "detail": {"type": "marketing", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P04", "action": "classified_document", "detail": {"type": "technical_note", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P04", "action": "classified_document", "detail": {"type": "invoice", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P04", "action": "classified_document", "detail": {"type": "technical_note", "confidence": 0.75, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P05", "action": "classified_document", "detail": {"type": "technical_note", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P05", "action": "classified_document", "detail": {"type": "timesheet", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P05", "action": "classified_document", "detail": {"type": "invoice", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P06", "action": "classified_document", "detail": {"type": "technical_note", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P06", "action": "classified_document", "detail": {"type": "invoice", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P06", "action": "classified_document", "detail": {"type": "marketing", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P06", "action": "classified_document", "detail": {"type": "timesheet", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P07", "action": "classified_document", "detail": {"type": "invoice", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P07", "action": "classified_document", "detail": {"type": "timesheet", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P07", "action": "classified_document", "detail": {"type": "technical_note", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P08", "action": "classified_document", "detail": {"type": "technical_note", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P08", "action": "classified_document", "detail": {"type": "marketing", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P08", "action": "classified_document", "detail": {"type": "invoice", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P08", "action": "classified_document", "detail": {"type": "timesheet", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P08", "action": "classified_document", "detail": {"type": "technical_note", "confidence": 0.75, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P09", "action": "classified_document", "detail": {"type": "invoice", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P09", "action": "classified_document", "detail": {"type": "technical_note", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P09", "action": "classified_document", "detail": {"type": "timesheet", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P09", "action": "classified_document", "detail": {"type": "technical_note", "confidence": 0.5, "needs_human_check": true}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P10", "action": "classified_document", "detail": {"type": "timesheet", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P10", "action": "classified_document", "detail": {"type": "technical_note", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P10", "action": "classified_document", "detail": {"type": "marketing", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P10", "action": "classified_document", "detail": {"type": "invoice", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P11", "action": "classified_document", "detail": {"type": "technical_note", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P11", "action": "classified_document", "detail": {"type": "marketing", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P11", "action": "classified_document", "detail": {"type": "invoice", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P11", "action": "classified_document", "detail": {"type": "timesheet", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P11", "action": "classified_document", "detail": {"type": "technical_note", "confidence": 0.75, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P12", "action": "classified_document", "detail": {"type": "technical_note", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P12", "action": "classified_document", "detail": {"type": "timesheet", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P12", "action": "classified_document", "detail": {"type": "invoice", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P12", "action": "classified_document", "detail": {"type": "marketing", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P13", "action": "classified_document", "detail": {"type": "marketing", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P13", "action": "classified_document", "detail": {"type": "technical_note", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P13", "action": "classified_document", "detail": {"type": "timesheet", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P14", "action": "classified_document", "detail": {"type": "invoice", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P14", "action": "classified_document", "detail": {"type": "timesheet", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P14", "action": "classified_document", "detail": {"type": "technical_note", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P14", "action": "classified_document", "detail": {"type": "marketing", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P15", "action": "classified_document", "detail": {"type": "timesheet", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P15", "action": "classified_document", "detail": {"type": "marketing", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P15", "action": "classified_document", "detail": {"type": "invoice", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P15", "action": "classified_document", "detail": {"type": "technical_note", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P16", "action": "classified_document", "detail": {"type": "timesheet", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P16", "action": "classified_document", "detail": {"type": "marketing", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P16", "action": "classified_document", "detail": {"type": "technical_note", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P16", "action": "classified_document", "detail": {"type": "invoice", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P17", "action": "classified_document", "detail": {"type": "technical_note", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P17", "action": "classified_document", "detail": {"type": "timesheet", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P17", "action": "classified_document", "detail": {"type": "invoice", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P18", "action": "classified_document", "detail": {"type": "timesheet", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P18", "action": "classified_document", "detail": {"type": "marketing", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P18", "action": "classified_document", "detail": {"type": "invoice", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P18", "action": "classified_document", "detail": {"type": "technical_note", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P19", "action": "classified_document", "detail": {"type": "invoice", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P19", "action": "classified_document", "detail": {"type": "marketing", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P19", "action": "classified_document", "detail": {"type": "timesheet", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P20", "action": "classified_document", "detail": {"type": "marketing", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P20", "action": "classified_document", "detail": {"type": "technical_note", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P20", "action": "classified_document", "detail": {"type": "timesheet", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P20", "action": "classified_document", "detail": {"type": "invoice", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P21", "action": "classified_document", "detail": {"type": "technical_note", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P21", "action": "classified_document", "detail": {"type": "timesheet", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P21", "action": "classified_document", "detail": {"type": "invoice", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P21", "action": "classified_document", "detail": {"type": "marketing", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P22", "action": "classified_document", "detail": {"type": "technical_note", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P22", "action": "classified_document", "detail": {"type": "marketing", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P22", "action": "classified_document", "detail": {"type": "timesheet", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P22", "action": "classified_document", "detail": {"type": "invoice", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P23", "action": "classified_document", "detail": {"type": "invoice", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P23", "action": "classified_document", "detail": {"type": "technical_note", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P23", "action": "classified_document", "detail": {"type": "timesheet", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P23", "action": "classified_document", "detail": {"type": "marketing", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P24", "action": "classified_document", "detail": {"type": "technical_note", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P24", "action": "classified_document", "detail": {"type": "invoice", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P24", "action": "classified_document", "detail": {"type": "marketing", "confidence": 1.0, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "intake", "project": "P24", "action": "classified_document", "detail": {"type": "technical_note", "confidence": 0.75, "needs_human_check": false}}
+{"time": "2026-10-02T01:44:06", "agent": "eligibility_reviewer", "project": "P01", "action": "needs_evidence", "detail": {"score": 1, "evidence": {"uncertainty": ["unknown whether"], "experiment": ["prototype"], "routine": ["plugin"]}}}
+{"time": "2026-10-02T01:44:06", "agent": "eligibility_reviewer", "project": "P02", "action": "likely_routine", "detail": {"score": -10, "evidence": {"routine": ["configured", "standard", "off-the-shelf", "integrated existing", "template"], "hype": ["innovative", "cutting-edge", "game-changing"]}}}
+{"time": "2026-10-02T01:44:06", "agent": "eligibility_reviewer", "project": "P03", "action": "likely_qualifies", "detail": {"score": 10, "evidence": {"uncertainty": ["unknown whether", "could not have predicted"], "advance": ["no existing", "published approaches"], "experiment": ["prototype", "benchmark", "did not meet", "changed the approach"]}}}
+{"time": "2026-10-02T01:44:06", "agent": "eligibility_reviewer", "project": "P04", "action": "needs_evidence", "detail": {"score": 1, "evidence": {"experiment": ["iteration"]}}}
+{"time": "2026-10-02T01:44:06", "agent": "eligibility_reviewer", "project": "P05", "action": "likely_qualifies", "detail": {"score": 10, "evidence": {"uncertainty": ["unknown whether", "could not have predicted"], "advance": ["no existing", "published approaches"], "experiment": ["prototype", "benchmark", "did not meet", "changed the approach"]}}}
+{"time": "2026-10-02T01:44:06", "agent": "eligibility_reviewer", "project": "P06", "action": "likely_routine", "detail": {"score": -14, "evidence": {"routine": ["migrated", "configured", "standard", "routine", "upgraded", "fixed", "plugin"]}}}
+{"time": "2026-10-02T01:44:06", "agent": "eligibility_reviewer", "project": "P07", "action": "likely_routine", "detail": {"score": -14, "evidence": {"routine": ["migrated", "configured", "standard", "routine", "upgraded", "fixed", "plugin"]}}}
+{"time": "2026-10-02T01:44:06", "agent": "eligibility_reviewer", "project": "P08", "action": "likely_routine", "detail": {"score": -10, "evidence": {"routine": ["configured", "standard", "off-the-shelf", "integrated existing", "template"], "hype": ["innovative", "cutting-edge", "game-changing"]}}}
+{"time": "2026-10-02T01:44:06", "agent": "eligibility_reviewer", "project": "P09", "action": "needs_evidence", "detail": {"score": 1, "evidence": {"experiment": ["iteration"]}}}
+{"time": "2026-10-02T01:44:06", "agent": "eligibility_reviewer", "project": "P10", "action": "likely_qualifies", "detail": {"score": 10, "evidence": {"uncertainty": ["unknown whether", "could not have predicted"], "advance": ["no existing", "published approaches"], "experiment": ["prototype", "benchmark", "did not meet", "changed the approach"]}}}
+{"time": "2026-10-02T01:44:06", "agent": "eligibility_reviewer", "project": "P11", "action": "likely_qualifies", "detail": {"score": 10, "evidence": {"uncertainty": ["unknown whether", "could not have predicted"], "advance": ["no existing", "published approaches"], "experiment": ["prototype", "benchmark", "did not meet", "changed the approach"]}}}
+{"time": "2026-10-02T01:44:06", "agent": "eligibility_reviewer", "project": "P12", "action": "likely_routine", "detail": {"score": 2, "evidence": {"uncertainty": ["unknown whether"], "advance": ["no existing"], "experiment": ["prototype", "benchmark", "failed", "changed the approach"], "routine": ["configured", "standard"]}}}
+{"time": "2026-10-02T01:44:06", "agent": "eligibility_reviewer", "project": "P13", "action": "likely_qualifies", "detail": {"score": 10, "evidence": {"uncertainty": ["unknown whether", "could not have predicted"], "advance": ["no existing", "published approaches"], "experiment": ["prototype", "benchmark", "did not meet", "changed the approach"]}}}
+{"time": "2026-10-02T01:44:06", "agent": "eligibility_reviewer", "project": "P14", "action": "likely_qualifies", "detail": {"score": 10, "evidence": {"uncertainty": ["unknown whether", "could not have predicted"], "advance": ["no existing", "published approaches"], "experiment": ["prototype", "benchmark", "did not meet", "changed the approach"]}}}
+{"time": "2026-10-02T01:44:06", "agent": "eligibility_reviewer", "project": "P15", "action": "likely_routine", "detail": {"score": -10, "evidence": {"routine": ["configured", "standard", "off-the-shelf", "integrated existing", "template"], "hype": ["innovative", "cutting-edge", "game-changing"]}}}
+{"time": "2026-10-02T01:44:06", "agent": "eligibility_reviewer", "project": "P16", "action": "likely_qualifies", "detail": {"score": 10, "evidence": {"uncertainty": ["unknown whether", "could not have predicted"], "advance": ["no existing", "published approaches"], "experiment": ["prototype", "benchmark", "did not meet", "changed the approach"]}}}
+{"time": "2026-10-02T01:44:06", "agent": "eligibility_reviewer", "project": "P17", "action": "likely_routine", "detail": {"score": 2, "evidence": {"uncertainty": ["unknown whether"], "advance": ["no existing"], "experiment": ["prototype", "benchmark", "failed", "changed the approach"], "routine": ["configured", "standard"]}}}
+{"time": "2026-10-02T01:44:06", "agent": "eligibility_reviewer", "project": "P18", "action": "likely_routine", "detail": {"score": -14, "evidence": {"routine": ["migrated", "configured", "standard", "routine", "upgraded", "fixed", "plugin"]}}}
+{"time": "2026-10-02T01:44:06", "agent": "eligibility_reviewer", "project": "P19", "action": "needs_evidence", "detail": {"score": 1, "evidence": {"uncertainty": ["unknown whether"], "experiment": ["prototype"], "routine": ["plugin"]}}}
+{"time": "2026-10-02T01:44:06", "agent": "eligibility_reviewer", "project": "P20", "action": "likely_routine", "detail": {"score": -10, "evidence": {"routine": ["configured", "standard", "off-the-shelf", "integrated existing", "template"], "hype": ["innovative", "cutting-edge", "game-changing"]}}}
+{"time": "2026-10-02T01:44:06", "agent": "eligibility_reviewer", "project": "P21", "action": "needs_evidence", "detail": {"score": 1, "evidence": {"experiment": ["iteration"]}}}
+{"time": "2026-10-02T01:44:06", "agent": "eligibility_reviewer", "project": "P22", "action": "needs_evidence", "detail": {"score": 1, "evidence": {"experiment": ["iteration"]}}}
+{"time": "2026-10-02T01:44:06", "agent": "eligibility_reviewer", "project": "P23", "action": "likely_routine", "detail": {"score": -14, "evidence": {"routine": ["migrated", "configured", "standard", "routine", "upgraded", "fixed", "plugin"]}}}
+{"time": "2026-10-02T01:44:06", "agent": "eligibility_reviewer", "project": "P24", "action": "likely_routine", "detail": {"score": -14, "evidence": {"routine": ["migrated", "configured", "standard", "routine", "upgraded", "fixed", "plugin"]}}}
+{"time": "2026-10-02T01:44:06", "agent": "human_gate_1", "project": "P01", "action": "request_evidence", "detail": {"decided_by": "simulated_reviewer", "agent_said": "needs_evidence"}}
+{"time": "2026-10-02T01:44:06", "agent": "human_gate_1", "project": "P02", "action": "reject", "detail": {"decided_by": "simulated_reviewer", "agent_said": "likely_routine"}}
+{"time": "2026-10-02T01:44:06", "agent": "human_gate_1", "project": "P03", "action": "approve", "detail": {"decided_by": "simulated_reviewer", "agent_said": "likely_qualifies"}}
+{"time": "2026-10-02T01:44:06", "agent": "human_gate_1", "project": "P04", "action": "request_evidence", "detail": {"decided_by": "simulated_reviewer", "agent_said": "needs_evidence"}}
+{"time": "2026-10-02T01:44:06", "agent": "human_gate_1", "project": "P05", "action": "approve", "detail": {"decided_by": "simulated_reviewer", "agent_said": "likely_qualifies"}}
+{"time": "2026-10-02T01:44:06", "agent": "human_gate_1", "project": "P06", "action": "reject", "detail": {"decided_by": "simulated_reviewer", "agent_said": "likely_routine"}}
+{"time": "2026-10-02T01:44:06", "agent": "human_gate_1", "project": "P07", "action": "reject", "detail": {"decided_by": "simulated_reviewer", "agent_said": "likely_routine"}}
+{"time": "2026-10-02T01:44:06", "agent": "human_gate_1", "project": "P08", "action": "reject", "detail": {"decided_by": "simulated_reviewer", "agent_said": "likely_routine"}}
+{"time": "2026-10-02T01:44:06", "agent": "human_gate_1", "project": "P09", "action": "request_evidence", "detail": {"decided_by": "simulated_reviewer", "agent_said": "needs_evidence"}}
+{"time": "2026-10-02T01:44:06", "agent": "human_gate_1", "project": "P10", "action": "approve", "detail": {"decided_by": "simulated_reviewer", "agent_said": "likely_qualifies"}}
+{"time": "2026-10-02T01:44:06", "agent": "human_gate_1", "project": "P11", "action": "approve", "detail": {"decided_by": "simulated_reviewer", "agent_said": "likely_qualifies"}}
+{"time": "2026-10-02T01:44:06", "agent": "human_gate_1", "project": "P12", "action": "reject", "detail": {"decided_by": "simulated_reviewer", "agent_said": "likely_routine"}}
+{"time": "2026-10-02T01:44:06", "agent": "human_gate_1", "project": "P13", "action": "approve", "detail": {"decided_by": "simulated_reviewer", "agent_said": "likely_qualifies"}}
+{"time": "2026-10-02T01:44:06", "agent": "human_gate_1", "project": "P14", "action": "approve", "detail": {"decided_by": "simulated_reviewer", "agent_said": "likely_qualifies"}}
+{"time": "2026-10-02T01:44:06", "agent": "human_gate_1", "project": "P15", "action": "reject", "detail": {"decided_by": "simulated_reviewer", "agent_said": "likely_routine"}}
+{"time": "2026-10-02T01:44:06", "agent": "human_gate_1", "project": "P16", "action": "approve", "detail": {"decided_by": "simulated_reviewer", "agent_said": "likely_qualifies"}}
+{"time": "2026-10-02T01:44:06", "agent": "human_gate_1", "project": "P17", "action": "reject", "detail": {"decided_by": "simulated_reviewer", "agent_said": "likely_routine"}}
+{"time": "2026-10-02T01:44:06", "agent": "human_gate_1", "project": "P18", "action": "reject", "detail": {"decided_by": "simulated_reviewer", "agent_said": "likely_routine"}}
+{"time": "2026-10-02T01:44:06", "agent": "human_gate_1", "project": "P19", "action": "request_evidence", "detail": {"decided_by": "simulated_reviewer", "agent_said": "needs_evidence"}}
+{"time": "2026-10-02T01:44:06", "agent": "human_gate_1", "project": "P20", "action": "reject", "detail": {"decided_by": "simulated_reviewer", "agent_said": "likely_routine"}}
+{"time": "2026-10-02T01:44:06", "agent": "human_gate_1", "project": "P21", "action": "request_evidence", "detail": {"decided_by": "simulated_reviewer", "agent_said": "needs_evidence"}}
+{"time": "2026-10-02T01:44:06", "agent": "human_gate_1", "project": "P22", "action": "request_evidence", "detail": {"decided_by": "simulated_reviewer", "agent_said": "needs_evidence"}}
+{"time": "2026-10-02T01:44:06", "agent": "human_gate_1", "project": "P23", "action": "reject", "detail": {"decided_by": "simulated_reviewer", "agent_said": "likely_routine"}}
+{"time": "2026-10-02T01:44:06", "agent": "human_gate_1", "project": "P24", "action": "reject", "detail": {"decided_by": "simulated_reviewer", "agent_said": "likely_routine"}}
+{"time": "2026-10-02T01:44:06", "agent": "calculator", "project": "P01", "action": "calculated", "detail": {"claimed": 27896.86, "qualifying": 27896.86, "credit_if_approved": 5579.37}}
+{"time": "2026-10-02T01:44:06", "agent": "calculator", "project": "P02", "action": "calculated", "detail": {"claimed": 56570.14, "qualifying": 46101.33, "credit_if_approved": 9220.27}}
+{"time": "2026-10-02T01:44:06", "agent": "calculator", "project": "P03", "action": "calculated", "detail": {"claimed": 34434.85, "qualifying": 30121.32, "credit_if_approved": 6024.26}}
+{"time": "2026-10-02T01:44:06", "agent": "calculator", "project": "P04", "action": "calculated", "detail": {"claimed": 43789.8, "qualifying": 43789.8, "credit_if_approved": 8757.96}}
+{"time": "2026-10-02T01:44:06", "agent": "calculator", "project": "P05", "action": "calculated", "detail": {"claimed": 44854.47, "qualifying": 38245.92, "credit_if_approved": 7649.18}}
+{"time": "2026-10-02T01:44:06", "agent": "calculator", "project": "P06", "action": "calculated", "detail": {"claimed": 101222.49, "qualifying": 92562.26, "credit_if_approved": 18512.45}}
+{"time": "2026-10-02T01:44:06", "agent": "calculator", "project": "P07", "action": "calculated", "detail": {"claimed": 43224.62, "qualifying": 32092.25, "credit_if_approved": 6418.45}}
+{"time": "2026-10-02T01:44:06", "agent": "calculator", "project": "P08", "action": "calculated", "detail": {"claimed": 43734.3, "qualifying": 42306.12, "credit_if_approved": 8461.22}}
+{"time": "2026-10-02T01:44:06", "agent": "calculator", "project": "P09", "action": "calculated", "detail": {"claimed": 56615.95, "qualifying": 44341.54, "credit_if_approved": 8868.31}}
+{"time": "2026-10-02T01:44:06", "agent": "calculator", "project": "P10", "action": "calculated", "detail": {"claimed": 37744.56, "qualifying": 32039.3, "credit_if_approved": 6407.86}}
+{"time": "2026-10-02T01:44:06", "agent": "calculator", "project": "P11", "action": "calculated", "detail": {"claimed": 83230.51, "qualifying": 75174.77, "credit_if_approved": 15034.95}}
+{"time": "2026-10-02T01:44:06", "agent": "calculator", "project": "P12", "action": "calculated", "detail": {"claimed": 56870.07, "qualifying": 56870.07, "credit_if_approved": 11374.01}}
+{"time": "2026-10-02T01:44:06", "agent": "calculator", "project": "P13", "action": "calculated", "detail": {"claimed": 21666.58, "qualifying": 18798.77, "credit_if_approved": 3759.75}}
+{"time": "2026-10-02T01:44:06", "agent": "calculator", "project": "P14", "action": "calculated", "detail": {"claimed": 75195.31, "qualifying": 73307.81, "credit_if_approved": 14661.56}}
+{"time": "2026-10-02T01:44:06", "agent": "calculator", "project": "P15", "action": "calculated", "detail": {"claimed": 14689.4, "qualifying": 14689.4, "credit_if_approved": 2937.88}}
+{"time": "2026-10-02T01:44:06", "agent": "calculator", "project": "P16", "action": "calculated", "detail": {"claimed": 53829.39, "qualifying": 53829.39, "credit_if_approved": 10765.88}}
+{"time": "2026-10-02T01:44:06", "agent": "calculator", "project": "P17", "action": "calculated", "detail": {"claimed": 73382.29, "qualifying": 73382.29, "credit_if_approved": 14676.46}}
+{"time": "2026-10-02T01:44:06", "agent": "calculator", "project": "P18", "action": "calculated", "detail": {"claimed": 40743.86, "qualifying": 40743.86, "credit_if_approved": 8148.77}}
+{"time": "2026-10-02T01:44:06", "agent": "calculator", "project": "P19", "action": "calculated", "detail": {"claimed": 36194.46, "qualifying": 36194.46, "credit_if_approved": 7238.89}}
+{"time": "2026-10-02T01:44:06", "agent": "calculator", "project": "P20", "action": "calculated", "detail": {"claimed": 38690.18, "qualifying": 38690.18, "credit_if_approved": 7738.04}}
+{"time": "2026-10-02T01:44:06", "agent": "calculator", "project": "P21", "action": "calculated", "detail": {"claimed": 45882.58, "qualifying": 38540.94, "credit_if_approved": 7708.19}}
+{"time": "2026-10-02T01:44:06", "agent": "calculator", "project": "P22", "action": "calculated", "detail": {"claimed": 35280.25, "qualifying": 34059.43, "credit_if_approved": 6811.89}}
+{"time": "2026-10-02T01:44:06", "agent": "calculator", "project": "P23", "action": "calculated", "detail": {"claimed": 56287.84, "qualifying": 56287.84, "credit_if_approved": 11257.57}}
+{"time": "2026-10-02T01:44:06", "agent": "calculator", "project": "P24", "action": "calculated", "detail": {"claimed": 47667.3, "qualifying": 43632.9, "credit_if_approved": 8726.58}}
+{"time": "2026-10-02T01:44:07", "agent": "challenger", "project": "P01", "action": "risk_medium", "detail": {"flags": ["no_timesheet", "routine_language"]}}
+{"time": "2026-10-02T01:44:07", "agent": "challenger", "project": "P02", "action": "risk_high", "detail": {"flags": ["hype_without_substance", "no_uncertainty", "routine_language"]}}
+{"time": "2026-10-02T01:44:07", "agent": "challenger", "project": "P03", "action": "risk_low", "detail": {"flags": []}}
+{"time": "2026-10-02T01:44:07", "agent": "challenger", "project": "P04", "action": "risk_medium", "detail": {"flags": ["no_timesheet", "no_uncertainty"]}}
+{"time": "2026-10-02T01:44:07", "agent": "challenger", "project": "P05", "action": "risk_low", "detail": {"flags": []}}
+{"time": "2026-10-02T01:44:07", "agent": "challenger", "project": "P06", "action": "risk_high", "detail": {"flags": ["inflated_time", "no_uncertainty", "routine_language"]}}
+{"time": "2026-10-02T01:44:07", "agent": "challenger", "project": "P07", "action": "risk_high", "detail": {"flags": ["ineligible_item", "no_uncertainty", "routine_language"]}}
+{"time": "2026-10-02T01:44:07", "agent": "challenger", "project": "P08", "action": "risk_high", "detail": {"flags": ["hype_without_substance", "ineligible_item", "no_uncertainty", "routine_language"]}}
+{"time": "2026-10-02T01:44:07", "agent": "challenger", "project": "P09", "action": "risk_medium", "detail": {"flags": ["ineligible_item", "no_uncertainty"]}}
+{"time": "2026-10-02T01:44:07", "agent": "challenger", "project": "P10", "action": "risk_low", "detail": {"flags": []}}
+{"time": "2026-10-02T01:44:07", "agent": "challenger", "project": "P11", "action": "risk_medium", "detail": {"flags": ["inflated_time"]}}
+{"time": "2026-10-02T01:44:07", "agent": "challenger", "project": "P12", "action": "risk_medium", "detail": {"flags": ["routine_language"]}}
+{"time": "2026-10-02T01:44:07", "agent": "challenger", "project": "P13", "action": "risk_low", "detail": {"flags": []}}
+{"time": "2026-10-02T01:44:07", "agent": "challenger", "project": "P14", "action": "risk_medium", "detail": {"flags": ["inflated_time"]}}
+{"time": "2026-10-02T01:44:07", "agent": "challenger", "project": "P15", "action": "risk_high", "detail": {"flags": ["hype_without_substance", "no_uncertainty", "routine_language"]}}
+{"time": "2026-10-02T01:44:07", "agent": "challenger", "project": "P16", "action": "risk_medium", "detail": {"flags": ["inflated_time"]}}
+{"time": "2026-10-02T01:44:07", "agent": "challenger", "project": "P17", "action": "risk_medium", "detail": {"flags": ["inflated_time", "routine_language"]}}
+{"time": "2026-10-02T01:44:07", "agent": "challenger", "project": "P18", "action": "risk_high", "detail": {"flags": ["no_timesheet", "no_uncertainty", "routine_language"]}}
+{"time": "2026-10-02T01:44:07", "agent": "challenger", "project": "P19", "action": "risk_medium", "detail": {"flags": ["inflated_time", "routine_language"]}}
+{"time": "2026-10-02T01:44:07", "agent": "challenger", "project": "P20", "action": "risk_high", "detail": {"flags": ["hype_without_substance", "no_uncertainty", "routine_language"]}}
+{"time": "2026-10-02T01:44:07", "agent": "challenger", "project": "P21", "action": "risk_medium", "detail": {"flags": ["no_timesheet", "no_uncertainty"]}}
+{"time": "2026-10-02T01:44:07", "agent": "challenger", "project": "P22", "action": "risk_medium", "detail": {"flags": ["ineligible_item", "no_uncertainty"]}}
+{"time": "2026-10-02T01:44:07", "agent": "challenger", "project": "P23", "action": "risk_high", "detail": {"flags": ["no_timesheet", "no_uncertainty", "routine_language"]}}
+{"time": "2026-10-02T01:44:07", "agent": "challenger", "project": "P24", "action": "risk_high", "detail": {"flags": ["inflated_time", "no_uncertainty", "routine_language"]}}
+{"time": "2026-10-02T01:44:07", "agent": "drafting_agent", "project": "P03", "action": "drafted", "detail": {"mode": "template"}}
+{"time": "2026-10-02T01:44:08", "agent": "drafting_agent", "project": "P05", "action": "drafted", "detail": {"mode": "template"}}
+{"time": "2026-10-02T01:44:09", "agent": "drafting_agent", "project": "P10", "action": "drafted", "detail": {"mode": "template"}}
+{"time": "2026-10-02T01:44:10", "agent": "drafting_agent", "project": "P11", "action": "drafted", "detail": {"mode": "template"}}
+{"time": "2026-10-02T01:44:11", "agent": "drafting_agent", "project": "P13", "action": "drafted", "detail": {"mode": "template"}}
+{"time": "2026-10-02T01:44:12", "agent": "drafting_agent", "project": "P14", "action": "drafted", "detail": {"mode": "template"}}
+{"time": "2026-10-02T01:44:12", "agent": "drafting_agent", "project": "P16", "action": "drafted", "detail": {"mode": "template"}}
+{"time": "2026-10-02T01:44:12", "agent": "human_gate_2", "project": null, "action": "blocked", "detail": {"reason": "no sign-off"}}
+{"time": "2026-10-02T01:44:13", "agent": "human_gate_2", "project": null, "action": "signed_off", "detail": {"by": "Demo Reviewer", "projects": 7}}
+{"time": "2026-10-02T01:44:13", "agent": "red_team", "project": "RT01", "action": "overstated_claim_caught", "detail": {"credit_claimed_pct_removed": 0.086}}

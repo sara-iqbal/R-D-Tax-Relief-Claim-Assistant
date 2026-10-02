@@ -1,0 +1,505 @@
+{
+  "generated": "2026-10-02T01:44:13",
+  "rdec_rate": 0.2,
+  "metrics": {
+    "intake": {
+      "accuracy_all": 0.968,
+      "accuracy_when_confident": 1.0,
+      "sent_to_human": 3,
+      "documents": 94
+    },
+    "eligibility": {
+      "routine_wrongly_passed": "0 of 11",
+      "routine_caught": "9 of 11",
+      "routine_sent_to_human": "2 of 11",
+      "genuine_wrongly_rejected": "2 of 13",
+      "genuine_auto_passed": "7 of 13"
+    },
+    "cost_checks": {
+      "injected_cost_issues": 16,
+      "detected": 16,
+      "detection_by_type": {
+        "ineligible_item": 1.0,
+        "inflated_time": 1.0,
+        "no_timesheet": 1.0
+      },
+      "false_alarms_on_clean_projects": "0 of 8"
+    },
+    "claim": {
+      "correct_claim": 122500.27,
+      "as_submitted_by_company": 233939.61,
+      "after_agents_and_gates": 64303.44,
+      "overclaim_before": 111439.34,
+      "gap_after": -58196.83,
+      "routine_projects_still_approved": 0,
+      "genuine_projects_not_approved": 6
+    }
+  },
+  "final_gate": {
+    "status": "READY FOR SUBMISSION (signed off by Demo Reviewer)",
+    "credit": 64303.44
+  },
+  "red_team": {
+    "narrative_status": "likely_routine",
+    "claimed": 27900.0,
+    "qualifying": 25500.0,
+    "questions": [
+      "The narrative is promotional. What technical detail supports it?",
+      "Why does the Finance Director spend 85% of their time on R&D?",
+      "What contemporaneous evidence supports the time claimed for Finance Director time?",
+      "The entertainment cost of \u00a32,400.00 does not qualify and should be removed."
+    ]
+  },
+  "audit_events": 200,
+  "projects": [
+    {
+      "id": "P01",
+      "style": "routine_tricky",
+      "truth": "routine",
+      "auto_status": "needs_evidence",
+      "gate1": "request_evidence",
+      "qualifying": 27896.86,
+      "credit": 0.0,
+      "risk": "medium",
+      "questions": [
+        "The narrative uses routine wording (plugin). How is this an advance in science or technology?",
+        "What contemporaneous evidence supports the time claimed for Senior Engineer time?"
+      ]
+    },
+    {
+      "id": "P02",
+      "style": "routine_buzz",
+      "truth": "routine",
+      "auto_status": "likely_routine",
+      "gate1": "reject",
+      "qualifying": 46101.33,
+      "credit": 0.0,
+      "risk": "high",
+      "questions": [
+        "What was the technological uncertainty that a competent professional could not readily resolve?",
+        "The narrative uses routine wording (configured, standard, off-the-shelf, integrated existing, template). How is this an advance in science or technology?",
+        "The narrative is promotional. What technical detail supports it?"
+      ]
+    },
+    {
+      "id": "P03",
+      "style": "genuine_clear",
+      "truth": "genuine",
+      "auto_status": "likely_qualifies",
+      "gate1": "approve",
+      "qualifying": 30121.32,
+      "credit": 6024.26,
+      "risk": "low",
+      "questions": []
+    },
+    {
+      "id": "P04",
+      "style": "genuine_vague",
+      "truth": "genuine",
+      "auto_status": "needs_evidence",
+      "gate1": "request_evidence",
+      "qualifying": 43789.8,
+      "credit": 0.0,
+      "risk": "medium",
+      "questions": [
+        "What was the technological uncertainty that a competent professional could not readily resolve?",
+        "What contemporaneous evidence supports the time claimed for Senior Engineer time?"
+      ]
+    },
+    {
+      "id": "P05",
+      "style": "genuine_clear",
+      "truth": "genuine",
+      "auto_status": "likely_qualifies",
+      "gate1": "approve",
+      "qualifying": 38245.92,
+      "credit": 7649.18,
+      "risk": "low",
+      "questions": []
+    },
+    {
+      "id": "P06",
+      "style": "routine_plain",
+      "truth": "routine",
+      "auto_status": "likely_routine",
+      "gate1": "reject",
+      "qualifying": 92562.26,
+      "credit": 0.0,
+      "risk": "high",
+      "questions": [
+        "What was the technological uncertainty that a competent professional could not readily resolve?",
+        "The narrative uses routine wording (migrated, configured, standard, routine, upgraded, fixed, plugin). How is this an advance in science or technology?",
+        "Why does the Finance Director spend 80% of their time on R&D?"
+      ]
+    },
+    {
+      "id": "P07",
+      "style": "routine_plain",
+      "truth": "routine",
+      "auto_status": "likely_routine",
+      "gate1": "reject",
+      "qualifying": 32092.25,
+      "credit": 0.0,
+      "risk": "high",
+      "questions": [
+        "What was the technological uncertainty that a competent professional could not readily resolve?",
+        "The narrative uses routine wording (migrated, configured, standard, routine, upgraded, fixed, plugin). How is this an advance in science or technology?",
+        "The entertainment cost of \u00a32,388.81 does not qualify and should be removed."
+      ]
+    },
+    {
+      "id": "P08",
+      "style": "routine_buzz",
+      "truth": "routine",
+      "auto_status": "likely_routine",
+      "gate1": "reject",
+      "qualifying": 42306.12,
+      "credit": 0.0,
+      "risk": "high",
+      "questions": [
+        "What was the technological uncertainty that a competent professional could not readily resolve?",
+        "The narrative uses routine wording (configured, standard, off-the-shelf, integrated existing, template). How is this an advance in science or technology?",
+        "The narrative is promotional. What technical detail supports it?",
+        "The entertainment cost of \u00a31,428.18 does not qualify and should be removed."
+      ]
+    },
+    {
+      "id": "P09",
+      "style": "genuine_vague",
+      "truth": "genuine",
+      "auto_status": "needs_evidence",
+      "gate1": "request_evidence",
+      "qualifying": 44341.54,
+      "credit": 0.0,
+      "risk": "medium",
+      "questions": [
+        "What was the technological uncertainty that a competent professional could not readily resolve?",
+        "The entertainment cost of \u00a31,853.78 does not qualify and should be removed."
+      ]
+    },
+    {
+      "id": "P10",
+      "style": "genuine_clear",
+      "truth": "genuine",
+      "auto_status": "likely_qualifies",
+      "gate1": "approve",
+      "qualifying": 32039.3,
+      "credit": 6407.86,
+      "risk": "low",
+      "questions": []
+    },
+    {
+      "id": "P11",
+      "style": "genuine_clear",
+      "truth": "genuine",
+      "auto_status": "likely_qualifies",
+      "gate1": "approve",
+      "qualifying": 75174.77,
+      "credit": 15034.95,
+      "risk": "medium",
+      "questions": [
+        "Why does the Finance Director spend 57% of their time on R&D?"
+      ]
+    },
+    {
+      "id": "P12",
+      "style": "genuine_tricky",
+      "truth": "genuine",
+      "auto_status": "likely_routine",
+      "gate1": "reject",
+      "qualifying": 56870.07,
+      "credit": 0.0,
+      "risk": "medium",
+      "questions": [
+        "The narrative uses routine wording (configured, standard). How is this an advance in science or technology?"
+      ]
+    },
+    {
+      "id": "P13",
+      "style": "genuine_clear",
+      "truth": "genuine",
+      "auto_status": "likely_qualifies",
+      "gate1": "approve",
+      "qualifying": 18798.77,
+      "credit": 3759.75,
+      "risk": "low",
+      "questions": []
+    },
+    {
+      "id": "P14",
+      "style": "genuine_clear",
+      "truth": "genuine",
+      "auto_status": "likely_qualifies",
+      "gate1": "approve",
+      "qualifying": 73307.81,
+      "credit": 14661.56,
+      "risk": "medium",
+      "questions": [
+        "Why does the Finance Director spend 87% of their time on R&D?"
+      ]
+    },
+    {
+      "id": "P15",
+      "style": "routine_buzz",
+      "truth": "routine",
+      "auto_status": "likely_routine",
+      "gate1": "reject",
+      "qualifying": 14689.4,
+      "credit": 0.0,
+      "risk": "high",
+      "questions": [
+        "What was the technological uncertainty that a competent professional could not readily resolve?",
+        "The narrative uses routine wording (configured, standard, off-the-shelf, integrated existing, template). How is this an advance in science or technology?",
+        "The narrative is promotional. What technical detail supports it?"
+      ]
+    },
+    {
+      "id": "P16",
+      "style": "genuine_clear",
+      "truth": "genuine",
+      "auto_status": "likely_qualifies",
+      "gate1": "approve",
+      "qualifying": 53829.39,
+      "credit": 10765.88,
+      "risk": "medium",
+      "questions": [
+        "Why does the Finance Director spend 55% of their time on R&D?"
+      ]
+    },
+    {
+      "id": "P17",
+      "style": "genuine_tricky",
+      "truth": "genuine",
+      "auto_status": "likely_routine",
+      "gate1": "reject",
+      "qualifying": 73382.29,
+      "credit": 0.0,
+      "risk": "medium",
+      "questions": [
+        "The narrative uses routine wording (configured, standard). How is this an advance in science or technology?",
+        "Why does the Finance Director spend 83% of their time on R&D?"
+      ]
+    },
+    {
+      "id": "P18",
+      "style": "routine_plain",
+      "truth": "routine",
+      "auto_status": "likely_routine",
+      "gate1": "reject",
+      "qualifying": 40743.86,
+      "credit": 0.0,
+      "risk": "high",
+      "questions": [
+        "What was the technological uncertainty that a competent professional could not readily resolve?",
+        "The narrative uses routine wording (migrated, configured, standard, routine, upgraded, fixed, plugin). How is this an advance in science or technology?",
+        "What contemporaneous evidence supports the time claimed for Software Engineer time?"
+      ]
+    },
+    {
+      "id": "P19",
+      "style": "routine_tricky",
+      "truth": "routine",
+      "auto_status": "needs_evidence",
+      "gate1": "request_evidence",
+      "qualifying": 36194.46,
+      "credit": 0.0,
+      "risk": "medium",
+      "questions": [
+        "The narrative uses routine wording (plugin). How is this an advance in science or technology?",
+        "Why does the Finance Director spend 64% of their time on R&D?"
+      ]
+    },
+    {
+      "id": "P20",
+      "style": "routine_buzz",
+      "truth": "routine",
+      "auto_status": "likely_routine",
+      "gate1": "reject",
+      "qualifying": 38690.18,
+      "credit": 0.0,
+      "risk": "high",
+      "questions": [
+        "What was the technological uncertainty that a competent professional could not readily resolve?",
+        "The narrative uses routine wording (configured, standard, off-the-shelf, integrated existing, template). How is this an advance in science or technology?",
+        "The narrative is promotional. What technical detail supports it?"
+      ]
+    },
+    {
+      "id": "P21",
+      "style": "genuine_vague",
+      "truth": "genuine",
+      "auto_status": "needs_evidence",
+      "gate1": "request_evidence",
+      "qualifying": 38540.94,
+      "credit": 0.0,
+      "risk": "medium",
+      "questions": [
+        "What was the technological uncertainty that a competent professional could not readily resolve?",
+        "What contemporaneous evidence supports the time claimed for Data Scientist time?"
+      ]
+    },
+    {
+      "id": "P22",
+      "style": "genuine_vague",
+      "truth": "genuine",
+      "auto_status": "needs_evidence",
+      "gate1": "request_evidence",
+      "qualifying": 34059.43,
+      "credit": 0.0,
+      "risk": "medium",
+      "questions": [
+        "What was the technological uncertainty that a competent professional could not readily resolve?",
+        "The marketing cost of \u00a31,220.82 does not qualify and should be removed."
+      ]
+    },
+    {
+      "id": "P23",
+      "style": "routine_plain",
+      "truth": "routine",
+      "auto_status": "likely_routine",
+      "gate1": "reject",
+      "qualifying": 56287.84,
+      "credit": 0.0,
+      "risk": "high",
+      "questions": [
+        "What was the technological uncertainty that a competent professional could not readily resolve?",
+        "The narrative uses routine wording (migrated, configured, standard, routine, upgraded, fixed, plugin). How is this an advance in science or technology?",
+        "What contemporaneous evidence supports the time claimed for Senior Engineer time?"
+      ]
+    },
+    {
+      "id": "P24",
+      "style": "routine_plain",
+      "truth": "routine",
+      "auto_status": "likely_routine",
+      "gate1": "reject",
+      "qualifying": 43632.9,
+      "credit": 0.0,
+      "risk": "high",
+      "questions": [
+        "What was the technological uncertainty that a competent professional could not readily resolve?",
+        "The narrative uses routine wording (migrated, configured, standard, routine, upgraded, fixed, plugin). How is this an advance in science or technology?",
+        "Why does the Finance Director spend 68% of their time on R&D?"
+      ]
+    }
+  ],
+  "audit_sample": [
+    {
+      "time": "2026-10-02T01:44:07",
+      "agent": "challenger",
+      "project": "P23",
+      "action": "risk_high",
+      "detail": {
+        "flags": [
+          "no_timesheet",
+          "no_uncertainty",
+          "routine_language"
+        ]
+      }
+    },
+    {
+      "time": "2026-10-02T01:44:07",
+      "agent": "challenger",
+      "project": "P24",
+      "action": "risk_high",
+      "detail": {
+        "flags": [
+          "inflated_time",
+          "no_uncertainty",
+          "routine_language"
+        ]
+      }
+    },
+    {
+      "time": "2026-10-02T01:44:07",
+      "agent": "drafting_agent",
+      "project": "P03",
+      "action": "drafted",
+      "detail": {
+        "mode": "template"
+      }
+    },
+    {
+      "time": "2026-10-02T01:44:08",
+      "agent": "drafting_agent",
+      "project": "P05",
+      "action": "drafted",
+      "detail": {
+        "mode": "template"
+      }
+    },
+    {
+      "time": "2026-10-02T01:44:09",
+      "agent": "drafting_agent",
+      "project": "P10",
+      "action": "drafted",
+      "detail": {
+        "mode": "template"
+      }
+    },
+    {
+      "time": "2026-10-02T01:44:10",
+      "agent": "drafting_agent",
+      "project": "P11",
+      "action": "drafted",
+      "detail": {
+        "mode": "template"
+      }
+    },
+    {
+      "time": "2026-10-02T01:44:11",
+      "agent": "drafting_agent",
+      "project": "P13",
+      "action": "drafted",
+      "detail": {
+        "mode": "template"
+      }
+    },
+    {
+      "time": "2026-10-02T01:44:12",
+      "agent": "drafting_agent",
+      "project": "P14",
+      "action": "drafted",
+      "detail": {
+        "mode": "template"
+      }
+    },
+    {
+      "time": "2026-10-02T01:44:12",
+      "agent": "drafting_agent",
+      "project": "P16",
+      "action": "drafted",
+      "detail": {
+        "mode": "template"
+      }
+    },
+    {
+      "time": "2026-10-02T01:44:12",
+      "agent": "human_gate_2",
+      "project": null,
+      "action": "blocked",
+      "detail": {
+        "reason": "no sign-off"
+      }
+    },
+    {
+      "time": "2026-10-02T01:44:13",
+      "agent": "human_gate_2",
+      "project": null,
+      "action": "signed_off",
+      "detail": {
+        "by": "Demo Reviewer",
+        "projects": 7
+      }
+    },
+    {
+      "time": "2026-10-02T01:44:13",
+      "agent": "red_team",
+      "project": "RT01",
+      "action": "overstated_claim_caught",
+      "detail": {
+        "credit_claimed_pct_removed": 0.086
+      }
+    }
+  ]
+}
