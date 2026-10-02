@@ -2,7 +2,6 @@
 
 **A team of small AI-style agents that prepares a tax relief claim, challenges it like a tax inspector would, and stops twice for a human to decide.**
 
-[Live dashboard](https://YOUR-USERNAME.github.io/rd-tax-claim-assistant/) · [Notebook](notebooks/RD_Tax_Claim_Assistant.ipynb)
 
 > All data is made up. Not tax advice. Rules change; check current GOV.UK guidance.
 
@@ -60,7 +59,6 @@ Every step is written to an audit log (about 200 events in the demo run), so any
 2. Download `results.json` and put it in `docs/` (a sample is already included).
 3. Optional: add a Colab secret `ANTHROPIC_API_KEY` to let an AI polish narratives. Without it, a template is used.
 
-Dashboard: *Settings > Pages > Deploy from a branch > main, folder /docs*.
 
 ## Limits
 
