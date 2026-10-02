@@ -1,0 +1,34 @@
+<!doctype html><html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>R&amp;D Tax Relief Claim Assistant</title><style>
+:root{--bg:#fff;--fg:#1c2530;--mut:#5d6b7a;--card:#f3f6f9;--acc:#6a3fb5;--ok:#0b6e4f;--no:#b3261e;--wa:#9a6700;--line:#dde3ea}
+@media(prefers-color-scheme:dark){:root{--bg:#12181f;--fg:#e8edf2;--mut:#9aa8b6;--card:#1b242e;--acc:#b79cff;--ok:#4cc38a;--no:#ff8a80;--wa:#f0b429;--line:#2b3744}}
+body{margin:0;font:16px/1.5 system-ui,sans-serif;background:var(--bg);color:var(--fg)}main{max-width:920px;margin:auto;padding:24px 16px}
+h1{margin:0}h2{margin-top:32px}.mut{color:var(--mut)}.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin-top:16px}
+.kpi{background:var(--card);border-radius:10px;padding:14px}.kpi b{display:block;font-size:24px;color:var(--acc)}
+.tag{font-size:12px;border-radius:99px;padding:1px 8px;border:1px solid currentColor;margin-right:6px;white-space:nowrap}.ok{color:var(--ok)}.no{color:var(--no)}.wa{color:var(--wa)}
+details{background:var(--card);border-radius:8px;padding:10px 12px;margin:8px 0}summary{cursor:pointer}.flow{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+.step{background:var(--card);border-radius:8px;padding:8px 12px;font-size:14px}.gate{border:2px solid var(--acc)}
+</style></head><body><main>
+<h1>R&amp;D Tax Relief Claim Assistant</h1>
+<p class="mut">A team of small specialist agents prepares an R&amp;D tax relief claim, challenges it the way an inspector would, and stops at two points where a human must decide. Synthetic demo data.</p>
+<div class="flow"><span class="step">Intake</span><span class="step">Eligibility review</span><span class="step gate">Human gate 1</span><span class="step">Cost calculator</span><span class="step">Drafting</span><span class="step">Challenger</span><span class="step gate">Human gate 2</span></div>
+<div id="app"><p class="mut">Loading results…</p></div>
+<p class="mut" style="font-size:14px;margin-top:32px">Synthetic data and a simulated reviewer. Not tax advice. Rules change; verify against GOV.UK.</p>
+<script>
+const $=(t,c,x)=>{const e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e},gbp=n=>"£"+Math.round(n).toLocaleString("en-GB");
+fetch("results.json").then(r=>{if(!r.ok)throw 0;return r.json()}).then(d=>{
+const a=document.getElementById("app");a.textContent="";const m=d.metrics,c=m.claim;
+const k=$("div","kpis");[[gbp(c.as_submitted_by_company),"credit if claimed as submitted"],[gbp(c.correct_claim),"correct claim (known from the answer sheet)"],[gbp(c.after_agents_and_gates),"claim after agents and gates (cautious)"],[m.cost_checks.detected+" of "+m.cost_checks.injected_cost_issues,"injected cost problems caught"]]
+ .forEach(([v,l])=>{const e=$("div","kpi");e.append($("b",null,v),document.createTextNode(l));k.append(e)});a.append(k);
+a.append($("p","mut",`Routine projects wrongly passed: ${m.eligibility.routine_wrongly_passed}. Caught: ${m.eligibility.routine_caught}. Sent to a human: ${m.eligibility.routine_sent_to_human}. Genuine projects wrongly rejected: ${m.eligibility.genuine_wrongly_rejected}. Final gate: ${d.final_gate.status}.`));
+a.append($("h2",null,"Red-team test: an overstated claim"));
+const rt=d.red_team,b=$("div","kpi");b.append($("p",null,`Status: ${rt.narrative_status}. Claimed ${gbp(rt.claimed)}, qualifying ${gbp(rt.qualifying)}. Questions an inspector would ask:`));
+const ul=$("ul");rt.questions.forEach(q=>ul.append($("li",null,q)));b.append(ul);a.append(b);
+a.append($("h2",null,"Every project"));
+const cls={likely_qualifies:"ok",needs_evidence:"wa",likely_routine:"no"};
+d.projects.forEach(p=>{const dt=$("details"),s=$("summary");
+ s.append($("span","tag "+cls[p.auto_status],p.auto_status.replace("_"," ")),$("span","tag",p.gate1.replace("_"," ")),$("span","tag mut","risk: "+p.risk),document.createTextNode(`${p.id} · ${p.style.replace("_"," ")} · credit ${gbp(p.credit)}`));
+ dt.append(s,$("p","mut",`Answer sheet says: ${p.truth}. Qualifying cost ${gbp(p.qualifying)}.`));
+ const l=$("ul");(p.questions.length?p.questions:["No challenge questions."]).forEach(q=>l.append($("li",null,q)));dt.append(l);a.append(dt)});
+}).catch(()=>{document.getElementById("app").innerHTML="<p><b>No results yet.</b> Run the notebook and put <code>results.json</code> in this folder.</p>"});
+</script></main></body></html>
